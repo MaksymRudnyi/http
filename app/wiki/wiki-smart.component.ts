@@ -8,7 +8,7 @@ import { WikipediaService } from './wikipedia.service';
 @Component({
     selector: 'my-wiki-smart',
     template: `
-    <h1>Smarter Wikipedia Demo</h1>
+    <h1>Smarter Wikipedia Demo. Need redo</h1>
     <p><i>Fetches when typing stops</i></p>
 
     <input #term (keyup)="search(term.value)"/>
